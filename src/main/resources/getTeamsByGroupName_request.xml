@@ -1,0 +1,7 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <getSalesTeamInfo xmlns="http://www.webex.com/blis/1.0/dbmethod/admin">
+            <GROUPNAME>@GROUPNAME@</GROUPNAME>
+        </getSalesTeamInfo>
+    </SOAP:Body>
+</SOAP:Envelope>

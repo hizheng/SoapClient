@@ -1,0 +1,6 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <getCMAgents xmlns="http://www.webex.com/blis/1.0/dbmethod/order">
+        </getCMAgents>
+    </SOAP:Body>
+</SOAP:Envelope>

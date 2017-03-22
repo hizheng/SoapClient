@@ -1,0 +1,94 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <BLiSAdminTool xmlns="http://www.webex.com/blis/1.0/custom">
+            <area>createUser</area>
+            <data>
+                <OrgDN xmlns="">o=WebEx Communications,cn=cordys,o=webex.com</OrgDN>
+                <AdminUser xmlns="">
+                    <BLIS_USER>
+                        <FIRSTNAME>pppp</FIRSTNAME>
+                        <ADDRESS1 />
+                        <LASTNAME>ppprr</LASTNAME>
+                        <ADDRESS2 />
+                        <TITLE />
+                        <CITY />
+                        <DEPARTMENT />
+                        <STATE />
+                        <EMAIL>pooiuiu@qq.com</EMAIL>
+                        <POSTALCODE />
+                        <PHONENUMBER>2323232</PHONENUMBER>
+                        <COUNTY />
+                        <HOMEPHONENUMBER />
+                        <COUNTRY>TK</COUNTRY>
+                        <CELLPHONENUMBER />
+                        <LOGINNAME>@USERID@</LOGINNAME>
+                        <GROUPID>1</GROUPID>
+                        <TeamName>APJ-ASEAN-Ent</TeamName>
+                        <CATEGORY>Advertising - PR</CATEGORY>
+                        <ROLENAME>AM</ROLENAME>
+                        <USERTYPE>yes</USERTYPE>
+                        <USERTYPE_ />
+                        <REPORTTO />
+                        <CSGAgentID>110923</CSGAgentID>
+                        <ExpDate>06/05/17</ExpDate>
+                        <ActionType>insert</ActionType>
+                        <PASSWORD>3b6fc4555a3a202043</PASSWORD>
+                        <CreatedBy>23</CreatedBy>
+                        <PrimaryRoleID>29</PrimaryRoleID>
+                        <PrimaryTeamID>102857</PrimaryTeamID>
+                    </BLIS_USER>
+                    <RoleAssignmentInfo>
+                        <Role>
+                            <RoleAssignmentID />
+                            <AssignmentType>User</AssignmentType>
+                            <AssigneeID />
+                            <RoleName>AM</RoleName>
+                            <RoleID>29</RoleID>
+                            <CreatedBy>23</CreatedBy>
+                            <LastModifiedBy>23</LastModifiedBy>
+                            <RoleNameUpdate>false</RoleNameUpdate>
+                            <RoleAssignmentUpdate>false</RoleAssignmentUpdate>
+                            <ACLValueUpdate>false</ACLValueUpdate>
+                            <ActionType>Insert</ActionType>
+                            <BRoleName />
+                        </Role>
+                    </RoleAssignmentInfo>
+                    <TeamInfo>
+                        <TeamAssignment>
+                            <ActionType>insert</ActionType>
+                            <TeamName>APJ-ASEAN-Ent</TeamName>
+                            <AgentAssignmentID />
+                            <EntityID>14</EntityID>
+                            <TeamTerritoryID />
+                            <TeamLOBID />
+                            <KeyID>102857</KeyID>
+                            <AgentID />
+                            <AssignmentTypeID>10</AssignmentTypeID>
+                            <AssignmentValue1 />
+                            <AssignmentValue2 />
+                            <Status>Active</Status>
+                            <CreatedBy />
+                            <CreationDate />
+                            <LastModifiedBy />
+                            <LastModifiedDate />
+                            <TeamLead />
+                        </TeamAssignment>
+                    </TeamInfo>
+                    <AgentMapping>
+                        <AgentMappingID />
+                        <ActionType>insert</ActionType>
+                        <SourceAgentID />
+                        <TargetAgentID>110923</TargetAgentID>
+                        <MappingRule />
+                        <MappingType>SR-CSG</MappingType>
+                        <Status>Active</Status>
+                        <CreatedBy />
+                        <CreationDate>sysdate</CreationDate>
+                        <LastModifiedBy />
+                        <LastModifiedDate>sysdate</LastModifiedDate>
+                    </AgentMapping>
+                </AdminUser>
+            </data>
+        </BLiSAdminTool>
+    </SOAP:Body>
+</SOAP:Envelope>

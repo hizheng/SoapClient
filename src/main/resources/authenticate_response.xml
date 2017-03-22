@@ -1,0 +1,7 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <AuthenticateResponse xmlns="http://schemas.cordys.com/1.0/webgateway">
+            <wcp-session>a53ab798-6361-4c01-8e06-f212b9678b49--boss</wcp-session>
+        </AuthenticateResponse>
+    </SOAP:Body>
+</SOAP:Envelope>

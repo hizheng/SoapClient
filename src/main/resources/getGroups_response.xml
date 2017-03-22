@@ -1,0 +1,284 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Header>
+        <header>
+            <msg-id>fec98347-fc70-4fb2-aaf1-bc35964d12ff</msg-id>
+            <sender>
+                <component>cn=BLiS JDBC Service,cn=soap nodes,o=WebEx Communications,cn=cordys,o=webex.com</component>
+                <reply-to>cn=soapProcessor@BLiS JDBC Service,cn=BLiS JDBC Service,cn=soap nodes,o=WebEx Communications,cn=cordys,o=webex.com</reply-to>
+            </sender>
+            <receiver>
+                <component>cn=Cordys Integrator Web Gateway,cn=cordys,o=webex.com</component>
+            </receiver>
+        </header>
+    </SOAP:Header>
+    <SOAP:Body>
+        <getGroupsResponse xmlns="http://www.webex.com/blis/1.0/dbmethod/admin">
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>1</GROUPID>
+                        <NAME>Sales</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>05/09/03</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>01/31/05</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>2</GROUPID>
+                        <NAME>Provisioning</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>05/09/03</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>01/31/05</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>3</GROUPID>
+                        <NAME>CSG</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>05/09/03</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>04/17/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>4</GROUPID>
+                        <NAME>IS</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>05/09/03</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>04/17/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>5</GROUPID>
+                        <NAME>Finance</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>05/09/03</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>04/17/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>6</GROUPID>
+                        <NAME>Legal</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>05/09/03</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>04/17/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>7</GROUPID>
+                        <NAME>Training</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>12/11/03</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>04/17/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>100001</GROUPID>
+                        <NAME>Marketing</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>06/17/04</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>06/17/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>100002</GROUPID>
+                        <NAME>Engineering</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>06/18/04</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>06/18/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>100003</GROUPID>
+                        <NAME>TEO</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>07/01/04</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>07/01/04</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110020</GROUPID>
+                        <NAME>BLiSDev</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>developer boss</CREATEDBY>
+                        <CREATIONDATE>05/30/06</CREATIONDATE>
+                        <LASTMODIFIEDBY>developer boss</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>05/30/06</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110040</GROUPID>
+                        <NAME>anyteam</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>08/04/06</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>08/04/06</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110041</GROUPID>
+                        <NAME>any group</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>08/04/06</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>08/04/06</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110060</GROUPID>
+                        <NAME>Marketing</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>Bennyh Huang</CREATEDBY>
+                        <CREATIONDATE>02/11/09</CREATIONDATE>
+                        <LASTMODIFIEDBY>Bennyh Huang</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>02/11/09</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110080</GROUPID>
+                        <NAME>Testsun</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>developer boss</CREATEDBY>
+                        <CREATIONDATE>11/19/10</CREATIONDATE>
+                        <LASTMODIFIEDBY>developer boss</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>08/11/16</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110100</GROUPID>
+                        <NAME>test test123</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>developer boss</CREATEDBY>
+                        <CREATIONDATE>12/06/10</CREATIONDATE>
+                        <LASTMODIFIEDBY>developer boss</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>12/06/10</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110120</GROUPID>
+                        <NAME>suneeltest</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>developer boss</CREATEDBY>
+                        <CREATIONDATE>08/11/16</CREATIONDATE>
+                        <LASTMODIFIEDBY>developer boss</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>08/11/16</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110140</GROUPID>
+                        <NAME>suneelgroup</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>developer boss</CREATEDBY>
+                        <CREATIONDATE>08/16/16</CREATIONDATE>
+                        <LASTMODIFIEDBY>developer boss</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>08/16/16</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+            <tuple>
+                <old>
+                    <BLIS_GROUP>
+                        <GROUPID>110160</GROUPID>
+                        <NAME>liuyanlin1</NAME>
+                        <PARENTGROUPID null="true"/>
+                        <PARENTGROUPNAME null="true"/>
+                        <CREATEDBY>developer boss</CREATEDBY>
+                        <CREATIONDATE>12/22/16</CREATIONDATE>
+                        <LASTMODIFIEDBY>developer boss</LASTMODIFIEDBY>
+                        <LASTMODIFIEDDATE>12/22/16</LASTMODIFIEDDATE>
+                    </BLIS_GROUP>
+                </old>
+            </tuple>
+        </getGroupsResponse>
+    </SOAP:Body>
+</SOAP:Envelope>

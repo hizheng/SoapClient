@@ -1,0 +1,6 @@
+<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+    <SOAP:Body>
+        <getAllAgents xmlns="http://www.webex.com/blis/1.0/dbmethod/admin">
+        </getAllAgents>
+    </SOAP:Body>
+</SOAP:Envelope>
